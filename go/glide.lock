@@ -1,0 +1,115 @@
+hash: eb173f7499b6fcef5dd8ca36ab0a7478149451fbb19edda412838dc733f62d4a
+updated: 2018-07-19T12:31:09.68641015Z
+imports:
+- name: github.com/aristanetworks/goarista
+  version: 625ff285aa35926943df199ab15deba045716206
+  subpackages:
+  - monotime
+- name: github.com/bitly/go-simplejson
+  version: 0c965951289cce37dec52ad1f34200fefc816777
+- name: github.com/btcsuite/btcd
+  version: f673a4b563b57b9a95832545c878669a7fa801d9
+  subpackages:
+  - btcec
+- name: github.com/BurntSushi/toml
+  version: a368813c5e648fee92e5f6c30e3944ff9d5e8895
+- name: github.com/deckarep/golang-set
+  version: 504e848d77ea4752b3057b8fb46da0e7f746ccf3
+- name: github.com/ethereum/go-ethereum
+  version: 040dd5bd5d9ecf05cce666eeb395bc18e5e91342
+  subpackages:
+  - accounts
+  - accounts/abi
+  - accounts/abi/bind
+  - accounts/keystore
+  - common
+  - common/hexutil
+  - common/math
+  - common/mclock
+  - core/types
+  - crypto
+  - crypto/randentropy
+  - crypto/secp256k1
+  - crypto/sha3
+  - ethdb
+  - event
+  - log
+  - metrics
+  - params
+  - rlp
+  - trie
+- name: github.com/fsnotify/fsnotify
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: github.com/ghodss/yaml
+  version: e9ed3c6dfb39bb1a32197cb10d527906fe4da4b6
+- name: github.com/go-stack/stack
+  version: 259ab82a6cad3992b4e21ff5cac294ccb06474bc
+- name: github.com/golang/snappy
+  version: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
+- name: github.com/hashicorp/hcl
+  version: ef8a98b0bbce4a65b5aa4c368430a80ddc533168
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/imdario/mergo
+  version: 9316a62528ac99aaecb4e47eadd6dc8aa6533d58
+- name: github.com/micro/go-config
+  version: 3904282c3ef78454df3c3c0b880fb780778ad16a
+  subpackages:
+  - encoder
+  - encoder/hcl
+  - encoder/json
+  - encoder/toml
+  - encoder/xml
+  - encoder/yaml
+  - reader
+  - reader/json
+  - source
+  - source/file
+- name: github.com/pborman/uuid
+  version: c65b2f87fee37d1c7854c9164a450713c28d50cd
+- name: github.com/rjeczalik/notify
+  version: 52ae50d8490436622a8941bd70c3dbe0acdd4bbf
+- name: github.com/syndtr/goleveldb
+  version: c4c61651e9e37fa117f53c5a906d3b63090d8445
+  subpackages:
+  - leveldb
+  - leveldb/cache
+  - leveldb/comparer
+  - leveldb/errors
+  - leveldb/filter
+  - leveldb/iterator
+  - leveldb/journal
+  - leveldb/memdb
+  - leveldb/opt
+  - leveldb/storage
+  - leveldb/table
+  - leveldb/util
+- name: golang.org/x/crypto
+  version: a2144134853fc9a27a7b1e3eb4f19f1a76df13c9
+  subpackages:
+  - pbkdf2
+  - scrypt
+- name: golang.org/x/sys
+  version: ac767d655b305d4e9612f5f6e33120b9176c4ad4
+  subpackages:
+  - unix
+- name: golang.org/x/tools
+  version: 32950ab3be12acf6d472893021373669979907ab
+  subpackages:
+  - go/ast/astutil
+  - imports
+  - internal/fastwalk
+- name: gopkg.in/karalabe/cookiejar.v2
+  version: 8dcd6a7f4951f6ff3ee9cbb919a06d8925822e57
+  subpackages:
+  - collections/prque
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []

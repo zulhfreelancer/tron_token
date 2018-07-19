@@ -1,0 +1,15 @@
+package: .
+import:
+- package: github.com/ethereum/go-ethereum
+  subpackages:
+  - accounts/abi
+  - accounts/abi/bind
+  - common
+  - core/types
+  - event
+- package: github.com/micro/go-config
+  version: ^0.7.0
+  subpackages:
+  - source/file
+- package: github.com/fsnotify/fsnotify
+  version: ^1.4.7
