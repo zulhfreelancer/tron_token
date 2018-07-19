@@ -1,2 +1,3 @@
-build
-go/vendor
+build/*
+go/vendor/*
+go/private_key

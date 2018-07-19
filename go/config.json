@@ -1,5 +1,6 @@
 {
-  "rpc_server": "http://127.0.0.1:7545",
-  "token_address": "0x2c2b9c9a4a25e24b174f26114e8926a9f2128fe4",
-  "test_account": "0x627306090abaB3A6e1400e9345bC60c78a8BEf57"
+  "rpc_server": "http://localhost:8545",
+  "token_address": "0x8f5a52f1cdad0aa5816416c9b58e3fa497f3e5a2",
+  "sender_account": "0x04bea2ebcac4f676ffc80fe28d0f256a95e51a98",
+  "sender_account_password": "1234"
 }

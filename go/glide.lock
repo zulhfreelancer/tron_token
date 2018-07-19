@@ -1,5 +1,5 @@
-hash: eb173f7499b6fcef5dd8ca36ab0a7478149451fbb19edda412838dc733f62d4a
-updated: 2018-07-19T12:31:09.68641015Z
+hash: f97e95db2daa22efe334f987e9af5956a6efced08ac6d942b5ff23940422a85a
+updated: 2018-07-19T17:19:23.717801527Z
 imports:
 - name: github.com/aristanetworks/goarista
   version: 625ff285aa35926943df199ab15deba045716206
@@ -31,12 +31,15 @@ imports:
   - crypto/randentropy
   - crypto/secp256k1
   - crypto/sha3
+  - ethclient
   - ethdb
   - event
   - log
   - metrics
+  - p2p/netutil
   - params
   - rlp
+  - rpc
   - trie
 - name: github.com/fsnotify/fsnotify
   version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
@@ -76,6 +79,8 @@ imports:
   version: c65b2f87fee37d1c7854c9164a450713c28d50cd
 - name: github.com/rjeczalik/notify
   version: 52ae50d8490436622a8941bd70c3dbe0acdd4bbf
+- name: github.com/rs/cors
+  version: 694cf2ad010fcf91ee35161f5bfdad8f42ed1b9a
 - name: github.com/syndtr/goleveldb
   version: c4c61651e9e37fa117f53c5a906d3b63090d8445
   subpackages:
@@ -96,6 +101,10 @@ imports:
   subpackages:
   - pbkdf2
   - scrypt
+- name: golang.org/x/net
+  version: 81d44fd177a98d09fe3bc40a5a78d495d3f042ea
+  subpackages:
+  - websocket
 - name: golang.org/x/sys
   version: ac767d655b305d4e9612f5f6e33120b9176c4ad4
   subpackages:
@@ -110,6 +119,8 @@ imports:
   version: 8dcd6a7f4951f6ff3ee9cbb919a06d8925822e57
   subpackages:
   - collections/prque
+- name: gopkg.in/natefinch/npipe.v2
+  version: c1b8fa8bdccecb0b8db834ee0b92fdbcfa606dd6
 - name: gopkg.in/yaml.v2
   version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
 testImports: []
