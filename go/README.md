@@ -1,4 +1,4 @@
-#### How to run geth-private (a Node package)?
+#### How to run [geth-private](https://www.npmjs.com/package/geth-private) (a Node package)?
 
 ```
 $ geth-private --autoMine
